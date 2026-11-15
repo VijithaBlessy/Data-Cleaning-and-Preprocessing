@@ -1,0 +1,9 @@
+Data Quality Issue,Action Taken,Result
+Column names,Standardized column names,Completed
+Extra spaces,Removed leading and trailing spaces,Completed
+Missing values,Checked all columns; none found,0 missing values
+Duplicate rows,Checked duplicate records; none found,0 duplicate rows
+Date formats,Parsed dates into standard datetime format,Completed
+Date data types,Converted order_date and ship_date,datetime64[ns]
+Postal code data type,Converted postal_code into text,String format
+Outliers,Identified using IQR method; retained for review,4074 potential outlier observations across four columns
